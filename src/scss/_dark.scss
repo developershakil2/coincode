@@ -1,0 +1,218 @@
+.dark{
+    
+     color:#fff;
+    background:#111;
+    
+
+.topNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    .topNavLeft{
+        img{
+            width:200px;
+            object-fit:contain;
+            height:90px;
+
+        }
+        button{
+            margin-right:6px;
+            border:none;
+            outline:none;
+            background:black;
+            color:#fff;
+            i{
+                font-size:25px;
+
+            }
+        }
+    }
+}
+.tonNavRight {
+    display: flex;
+    align-items: center;
+    button{
+        margin:0px 10px;
+        padding:4px 8px;
+        border-radius:10px;
+        font-weight:bold;
+        background:black;
+        color:$maincolor;
+        border:1px solid $maincolor;
+        i{
+            font-size:20px;
+        }
+    }
+    .chainBtn{
+        img{
+            margin-right:5px;
+            width:25px
+            ; height:25px;
+            border-radius:50%;
+        }
+    }
+}
+
+aside {
+    width: 200px;
+    height: 100vh;
+    position:fixed;
+    box-shadow: 1px 0px 0px;
+ @include lighti;
+   
+}
+button.accordion-button {
+    background: $dark;
+    color:$light;
+    box-shadow:none;
+    border:none;
+
+}
+button.accordion-button:focus{
+    background: $maincolor;
+    color:$light;
+    box-shadow:none;
+    border:none;
+}
+button.accordion-button{
+    i{
+        color:$maincolor;
+    }
+}
+.accordion-body{
+    background:$dark;
+    color:$light;
+}
+.accordion-body{
+    li{list-style:none ; a{
+        text-decoration:none;
+        margin-top:10px;
+        color:$light;
+        &:hover{
+            color:$maincolor;
+        }
+    }}
+}
+.antil{
+    background:$dark;
+    color:$light;
+}
+.antil:focus{
+    background:$maincolor;
+}
+.accordion-button:focus i{
+    color:$light;
+  }
+  .antil{
+    i{color:$maincolor;}
+  }
+  .navWrapper {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background: $dark;
+    z-index: 5;
+}
+.homeStatusValWrap {
+    width:90%;
+        margin:auto;
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-around;
+    .homeStatusValBox {
+        background: $maincolor;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 24%;
+        justify-content: center;
+        height: 179px;
+        border-radius: 10px;
+        p{margin:0px}
+    }
+}
+
+
+.homeStatusValWrap2{
+    width:90%;
+    margin:auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    .homeStatusValBox {
+        background: $maincolor;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 24%;
+        justify-content: center;
+        padding:20px 0px;
+        border-radius: 10px;
+        p{margin:0px; font-size:18px; text-align:center}
+    }
+   
+}
+
+.bottonLogoWrap {
+    width: 300px;
+    background:$maincolor;
+    padding: 2px;
+    margin: auto;
+    border-radius: 26px;
+    img{width:95%;height:85px;object-fit:contain; margin-top:30px}
+}
+.content.row.mt-5.pt-5 {
+    width: 100%;
+    margin:auto;
+}
+.ctWrapper{
+    height:90vh;
+}
+.tab{
+    background:$maincolor;
+}
+
+input.createInput:hover{
+    border:1px solid $maincolor;
+ }
+ input.createInput {
+     width: 100%;
+     padding: 6px 17px;
+     border-radius: 24px;
+     background:$gcolor;
+     border:none;
+     outline:none;
+ }
+ .col-12.col-md-11.col-lg-11.col-xl-11.m-auto.leftPresale{
+    background:$dblack;
+ }
+ .dataWrap{
+    background: #242121;
+ }
+ section.home_contents {
+    padding-bottom: 50px;
+}
+.btnWraper{
+    button{color:$light;}
+}
+li#tab\:r1\:2:focus {
+    margin-left: 15px;
+    color:$light;
+    background:$maincolor;
+}
+li#tab\:r1\:0:focus {
+    background: $maincolor;
+    color:$light;
+    margin: 0px 19px;
+    border-radius:5px;
+}
+li#tab\:r1\:1:focus {
+    background: $maincolor;
+    color:$light;
+    border-radius:5px;
+}
+
+}
+

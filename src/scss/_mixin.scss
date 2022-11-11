@@ -1,0 +1,22 @@
+
+
+@import './variable';
+
+
+
+
+@mixin darki {
+    background:$light;
+    color:$dark;
+}
+@mixin lighti{
+    background:$dark;
+    color:$light;
+}
+@mixin dflex {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0px 9px;
+    
+   }
